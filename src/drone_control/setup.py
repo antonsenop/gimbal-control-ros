@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='anpon',
-    maintainer_email='anpon@todo.todo',
+    maintainer='suhan',
+    maintainer_email='suhan@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,7 +24,6 @@ setup(
     },
 entry_points={
         'console_scripts': [
-            'gimbal_controller = drone_control.gimbal_controller:main',
 	'keyboard_gimbal = drone_control.keyboard_gimbal:main'
         ],
     },

@@ -91,3 +91,9 @@ ros2 run drone_control keyboard_gimbal
 
 ***
 
+### !!!! NOTE:
+
+Any changes to a computer must have updates to these files:
+
+1. setup.py
+2. package.xml

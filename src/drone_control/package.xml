@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://download.ros.org/schema/package_format3.xsd"?>
 <package format="3">
   <name>drone_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="anpon@todo.todo">anpon</maintainer>
+  <description>Gimbal and drone control node</description>
+  <maintainer email="suhan@todo.todo">suhan</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
-  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>mavros_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
