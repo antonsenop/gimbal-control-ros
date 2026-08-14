@@ -50,7 +50,7 @@ sudo apt install ros-humble-mavros ros-humble-mavros-extras
 # Assuming your Pixhawk is connected to the Companion Computer via USB (/dev/ttyUSB0) with a baud rate of 921600:
 # bash:
 
-ros2 launch mavros apm.launch fcu_url:=serial:///dev/ttyUSB0:921600
+ros2 launch mavros apm.launch fcu_url:=serial:///dev/ttyTHS1:921600
 
 ---
 ## 4. Adapting the Python Node for MAVROS
